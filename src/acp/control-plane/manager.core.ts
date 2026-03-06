@@ -92,6 +92,7 @@ export class AcpSessionManager {
         sessionKey,
       };
     }
+
     const acp = this.deps.readSessionEntry({
       cfg: params.cfg,
       sessionKey,
